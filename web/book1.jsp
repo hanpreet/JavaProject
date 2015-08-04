@@ -1,7 +1,7 @@
 <%-- 
     Document   : book1
     Created on : 4-Aug-2015, 11:31:50 AM
-    Author     : preetindersingh
+    Author     : hanpreet
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8" import="Demo.register" %>

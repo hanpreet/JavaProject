@@ -1,7 +1,7 @@
 <%-- 
     Document   : login_1
     Created on : 3-Aug-2015, 10:18:28 PM
-    Author     : preetindersingh
+    Author     : hanpreet
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>

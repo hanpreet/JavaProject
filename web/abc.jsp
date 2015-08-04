@@ -1,7 +1,7 @@
 <%-- 
     Document   : abc
     Created on : 4-Aug-2015, 12:00:00 AM
-    Author     : preetindersingh
+    Author     : hanpreet
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8" import="Demo.RegHosp" %>

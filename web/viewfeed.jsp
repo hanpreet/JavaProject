@@ -1,7 +1,7 @@
 <%-- 
     Document   : viewfeed
     Created on : 4-Aug-2015, 11:34:57 AM
-    Author     : preetindersingh
+    Author     : hanpreet
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>

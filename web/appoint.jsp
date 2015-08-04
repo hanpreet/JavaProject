@@ -1,7 +1,7 @@
 <%-- 
     Document   : appoint
     Created on : 4-Aug-2015, 12:03:06 AM
-    Author     : preetindersingh
+    Author     : hanpreet
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>

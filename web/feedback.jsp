@@ -1,7 +1,7 @@
 <%-- 
     Document   : feedback
     Created on : 4-Aug-2015, 12:05:31 AM
-    Author     : preetindersingh
+    Author     : hanpreet
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8" import="Demo.feedbackprop" import="Demo.RegFeed"%>

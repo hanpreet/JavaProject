@@ -1,9 +1,13 @@
 <%-- 
     Document   : admin
     Created on : 3-Aug-2015, 9:28:27 PM
-    Author     : preetindersingh
+    Author     : hanpreet
 --%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@page import="java.sql.*" import="Demo.Regadmin" %>
+<%@page import="Demo.RegFeed" %>
+<%@page import="Demo.feedbackprop" %>
+<%@page import="Demo.propadmin" %>
 <!DOCTYPE html>
 <html>
     <head>

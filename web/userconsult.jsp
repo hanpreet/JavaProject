@@ -1,10 +1,13 @@
 <%-- 
     Document   : userconsult
     Created on : 3-Aug-2015, 10:31:33 PM
-    Author     : preetindersingh
+    Author     : hanpreet
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@page import="Demo.prop" %>
+<%@page import="Demo.RegisterDemo"%>
+<%@page import="java.sql.*" %>
 <!DOCTYPE html>
 <html>
     <head>
