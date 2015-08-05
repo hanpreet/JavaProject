@@ -54,8 +54,8 @@
     <div class="tabscontent">
         <font style="Verdana" size="3">
         <center><b>E-Health Care Lifeline</b><br>
-        +91-9878331910<br>
-        +91-8699211982
+        +15193124135<br>
+        Hanpreet Kaur Dhaliwal
         
         <br><br>
         <font color="blue" size="4"><b><u>Services</u></b></font></center>

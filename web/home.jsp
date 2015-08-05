@@ -43,7 +43,7 @@
 						<a href="login_1.jsp">Login</a>
 					</li>
 					<li>
-						<a href="contact.html">Contact</a>
+						<a href="contact.jsp">Contact</a>
 					</li>
 				</ul>
                             
