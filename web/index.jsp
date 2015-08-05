@@ -59,10 +59,10 @@
     <div class="tabscontent">
         <%
             int id=0;
-            Class.forName("sun.jdbc.odbc.JdbcOdbcDriver");  
+            Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");  
             try
             {
-             Connection con = DriverManager.getConnection("jdbc:odbc:health","sa","sa");  
+             Connection con = DriverManager.getConnection("jdbc:sqlserver://localhost:1433;databaseName=health;","sa","hanpreet");  
              Statement stmt = con.createStatement();   
             ResultSet rs=stmt.executeQuery("select max(did) from doctors");
              if(rs.next())

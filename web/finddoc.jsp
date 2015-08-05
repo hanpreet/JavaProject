@@ -202,7 +202,7 @@
 					</div>
 				</div>
 				<p>
-					&#169; Copyright 2014. All rights reserved
+					Hanpreet; Copyright 2015. All rights reserved
 				</p>
 			</div>
 		</div>
