@@ -4,6 +4,8 @@
     Author     : hanpreet
 --%>
 
+<%@page import="Demo.RegisterDemo"%>
+<%@page import="Demo.prop"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@page import="java.sql.*" %>
 <!DOCTYPE html>

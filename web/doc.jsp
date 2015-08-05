@@ -8,8 +8,8 @@
 String state=request.getParameter("count");  
  String buffer="Doctor: <select name='doctor'><option value='-1'>Select</option>";  
  try{
- Class.forName("sun.jdbc.odbc.JdbcOdbcDriver");  
- Connection con = DriverManager.getConnection("jdbc:odbc:health","sa","sa");  
+ Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");  
+ Connection con = DriverManager.getConnection("jdbc:sqlserver://localhost:1433;databaseName=health;","sa","hanpreet");  
  Statement stmt = con.createStatement();   
  ResultSet rs = stmt.executeQuery("Select * from doctor where ssid='"+state+"' ");  
    while(rs.next()){

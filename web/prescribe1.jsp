@@ -81,8 +81,8 @@
            try
   {
       int aid=Integer.parseInt(request.getParameter("aid"));
-  Class.forName("sun.jdbc.odbc.JdbcOdbcDriver");  
- Connection con = DriverManager.getConnection("jdbc:odbc:health","sa","sa"); 
+  Class.forName("honeydhaliwal40@gmail.com");  
+ Connection con = DriverManager.getConnection("jdbc:sqlserver://localhost:1433;databaseName=health;","sa","hanpreet"); 
  PreparedStatement stmt=con.prepareStatement("update appoint set prescription=? where appointid=+"+aid);
  stmt.setString(1, pres);
  stmt.executeUpdate();

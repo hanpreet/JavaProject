@@ -102,8 +102,8 @@
                <br> Hospital: <select name="hospital">  
       <option value="none">Select</option>  
     <%
- Class.forName("sun.jdbc.odbc.JdbcOdbcDriver");  
- Connection con = DriverManager.getConnection("jdbc:odbc:health","sa","sa");  
+ Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");  
+ Connection con = DriverManager.getConnection("jdbc:sqlserver://localhost:1433;databaseName=health;","sa","hanpreet");  
  Statement stmt = con.createStatement();  
  ResultSet rs1 = stmt.executeQuery("Select hid,hname from hospital");
  while(rs1.next()){

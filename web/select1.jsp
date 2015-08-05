@@ -102,8 +102,8 @@
  
  try
   {
-  Class.forName("sun.jdbc.odbc.JdbcOdbcDriver");  
- Connection con = DriverManager.getConnection("jdbc:odbc:health","sa","sa"); 
+  Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");  
+ Connection con = DriverManager.getConnection("jdbc:sqlserver://localhost:1433;databaseName=health;","sa","hanpreet"); 
  PreparedStatement stmt=con.prepareStatement("update doctors set imgurl=? where did=+"+foldername);
  stmt.setString(1, aa1);
  stmt.executeUpdate();

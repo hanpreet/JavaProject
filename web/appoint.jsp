@@ -166,8 +166,8 @@
                         <select name='t1'>  
        <option value="none">Select</option>  
    <%
- Class.forName("sun.jdbc.odbc.JdbcOdbcDriver");  
- Connection con1 = DriverManager.getConnection("jdbc:odbc:health","sa","sa");  
+ Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");  
+ Connection con1 = DriverManager.getConnection("jdbc:sqlserver://localhost:1433;databaseName=health;","sa","hanpreet");  
  Statement stmt1 = con1.createStatement();  
  ResultSet rs4 = stmt1.executeQuery("select slottime from slot where slottime not in(select appointtime from appoint where appointdate='"+date+"' and did="+dname+")");
  

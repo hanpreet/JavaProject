@@ -67,13 +67,13 @@
 
 <%
    String to="",subject="",message="";
-   to="ashok.kashav@gmail.com";
+   to="honeydhaliwal40@gmail.com";
    subject=request.getParameter("subject");
    message=request.getParameter("message");
    out.println(to);
    out.println(subject);
    out.println(message);
-   String from="ashok.kashav@gmail.com";
+   String from="honeydhaliwal40@gmail.com";
   String smtpServ="smtp.gmail.com";
    
 Mail m=new Mail();

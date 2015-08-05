@@ -73,7 +73,7 @@
    out.println(to);
    out.println(subject);
    out.println(message);
-   String from="anil.rana842@gmail.com";
+   String from="honey@gmail.com";
   String smtpServ="smtp.gmail.com";
    
 Mail m=new Mail();
@@ -141,7 +141,7 @@ msg.setText(message);
         @Override
             public PasswordAuthentication getPasswordAuthentication()
             {
-                String username="anil.rana842@gmail.com";
+                String username="avisidhu25@hotmail.com";
            String Password="9816677842";
            return new PasswordAuthentication(username,Password);
             }

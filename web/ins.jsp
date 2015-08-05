@@ -49,8 +49,8 @@
      
         try
         {
-             Class.forName("sun.jdbc.odbc.JdbcOdbcDriver");  
- Connection con = DriverManager.getConnection("jdbc:odbc:health","sa","sa"); 
+             Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");  
+ Connection con = DriverManager.getConnection("jdbc:sqlserver://localhost:1433;databaseName=health;","sa","hanpreet"); 
          PreparedStatement stmt=con.prepareStatement("insert into doctors (dname,dob,gender,qual,sid,ssid,email,contact,address,hid,login,password)values(?,?,?,?,?,?,?,?,?,?,?,?)");
          stmt.setString(1, p.getdName());
          stmt.setString(2, p.getAge());

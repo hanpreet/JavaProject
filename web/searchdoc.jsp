@@ -104,8 +104,8 @@
     <%
         String doc="";
         String sub=request.getParameter("subspeciality"); 
- Class.forName("sun.jdbc.odbc.JdbcOdbcDriver");  
- Connection con = DriverManager.getConnection("jdbc:odbc:health","sa","sa");  
+ Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");  
+ Connection con = DriverManager.getConnection("jdbc:sqlserver://localhost:1433;databaseName=health;","sa","hanpreet");  
  Statement stmt = con.createStatement();  
  ResultSet rs1 = stmt.executeQuery("Select dname from doctors where ssid='"+sub+"'");
  while(rs1.next()){

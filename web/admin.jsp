@@ -363,8 +363,8 @@ if (x==null || x=="")
                       <td> <select name='Speciality' onchange="showState(this.value)">  
       <option value="none">Select</option>  
     <%
- Class.forName("sun.jdbc.odbc.JdbcOdbcDriver");  
- Connection con = DriverManager.getConnection("jdbc:odbc:health","sa","sa");  
+ Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");  
+ Connection con = DriverManager.getConnection("jdbc:sqlserver://localhost:1433;databaseName=health;","sa","hanpreet");  
  Statement stmt = con.createStatement();   
  ResultSet rs = stmt.executeQuery("Select * from speciality");
  while(rs.next()){
